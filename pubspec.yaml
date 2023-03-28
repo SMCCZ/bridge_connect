@@ -1,6 +1,6 @@
 name: bridge_connect
 description: A Flutter Package to make API call easy.
-version: 0.0.1
+version: 0.0.2
 homepage: "https://github.com/SMCCZ/bridge_connect/blob/main/README.md"
 
 environment:
