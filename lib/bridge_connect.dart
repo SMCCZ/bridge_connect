@@ -7,7 +7,7 @@ import 'package:http/http.dart';
 class BridgeConnect {
   static Future<Map<String, dynamic>> postAPICall(
       {required String api,
-      Map<String, String>? body,
+      Map<String, dynamic>? body,
       Map<String, String>? headersList}) async {
     var url = Uri.parse(api);
     var req = Request('POST', url);
