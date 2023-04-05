@@ -5,10 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   test('get api test', () {
-    // final calculator = Calculator();
-    // expect(calculator.addOne(2), 3);
-    // expect(calculator.addOne(-7), -6);
-    // expect(calculator.addOne(0), 1);
+    //TODO:Write test cases for get api call
   });
   test('post api test', () async {
     var api = "https://countriesnow.space/api/v0.1/countries";
